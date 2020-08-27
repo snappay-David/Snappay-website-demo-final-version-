@@ -1,0 +1,149 @@
+div {
+    display: block;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th, table thead tr {
+    background: #ccc;
+    font-weight: bold;
+}
+
+table tr td:first-child {
+    font-weight: bold;
+}
+
+table tr td {
+    background-color: transparent;
+}
+
+#content {
+    justify-content: center;
+    color: black;
+}
+
+#box {
+    margin-left: 35%;
+    margin-top: 20px
+}
+
+#box2 {
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+#box3 {
+    margin-left: 73%;
+    margin-top: 10px;
+    margin-bottom: 10%;
+}
+
+#container1 {
+    background-image:url("./../Pic/back.jpg");
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+#container3 {
+    display:inline-block;
+    width: 27%;
+    margin-right: 13%;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+#container4 {
+    display: inline-block;
+    width: 45%;
+    margin-left: 15%;
+    vertical-align: top;
+}
+
+#container5 {
+    display: inline-block;
+    background-color:rgba(0,0,0,0.05);
+    margin-left: 20%;
+    vertical-align: top;
+}
+
+#container6 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+#container7 {
+    margin-top: 20px;
+}
+
+
+#header {
+	padding: 5px;
+	background-color: black;
+    height: 60px
+}
+
+#headContent1 {
+    margin-left: 10%;
+    display: inline-flex;
+    color: white;
+}
+
+#headContent2 {
+    margin-left: 40%;
+    display: inline-flex;
+    color: white;
+}
+
+#headContent3 {
+    margin-left: 100px;
+    display: inline-flex;
+    color: white;
+}
+
+#billing {
+    margin-left: 33%;
+}
+
+#header {
+	padding: 5px;
+	background-color: black;
+    height: 60px
+}
+
+#banner1 {
+    background-size: cover;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.ShopIcon {
+	width: 30px;
+	margin-left: 40px;
+    height: 100px
+}
+
+.hr1 {
+    height:1px;
+    border:none;
+    border-top:1px solid #555555;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+}
+
+.container2 {
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 50px
+}

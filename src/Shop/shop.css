@@ -1,0 +1,107 @@
+div {
+    display: block;
+    justify-content: center;
+}
+
+#header {
+	padding: 5px;
+	background-color: black;
+    height: 60px;
+}
+
+#footer {
+	background-color: black;
+    height: 60px
+}
+
+#footerWord {
+    padding-left: 20px;
+	color: white;
+    text-align: center;
+    align-items: center;
+}
+
+#headContent1 {
+    margin-left: 10%;
+    display: inline-flex;
+    color: white;
+}
+
+#headContent2 {
+    margin-left: 40%;
+    display: inline-flex;
+    color: white;
+}
+
+#headContent3 {
+    margin-left: 100px;
+    display: inline-flex;
+    color: white;
+}
+
+#banner {
+    background-image:url("./../Pic/banner.jpg");
+    background-size: cover;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    justify-content: center;
+}
+
+#content {
+    justify-content: center;
+    color: white;
+}
+
+#footerContent {
+    margin-left: 10%;
+    display: inline-flex;
+    color: white;
+    line-height: 60px;
+}
+
+#container1 {
+    background-image:url("./../Pic/back.jpg");
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.ShopIcon {
+	width: 30px;
+	margin-left: 40px;
+    height: 100px;
+    display:inline-flex;
+}
+
+.bannerPic {
+	display: block;
+	width: 100%;
+	height: 400px;
+}
+
+.hatPic {
+	display: block;
+	width: 100%;
+	height: 40%;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.hatLogo {
+    margin-top: 5px;
+    width: 60px;
+	margin-left: 40px;
+    height: 50px
+}
+
+.container1 {
+    text-align: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5%;
+    margin-bottom: 10%
+}
