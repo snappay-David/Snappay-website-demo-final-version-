@@ -12,7 +12,7 @@ export class Pay extends React.Component {
         this.state = {
             //submit: false,
 			//	time: '2020-08-20 17:35:22',
-			order: '7944922900' + Math.floor(Math.random()*(999-100+1)+100).toString(),
+			order: '79449229' + Math.floor(Math.random()*(99999-10000+1)+10000).toString(),
 			amount: 0.01,
 			merchant_no: '901800000116',
 			notify_url: "https://localhost:3000",
@@ -115,12 +115,12 @@ export class Pay extends React.Component {
 	render() {
 
 	return (
-		<body>
+		<body id ='backgroud'>
 		<div id="main">
 
 			<div class="cashier-nav">
 				<ol>
-					<li>Website demo</li>
+					<li id = "title1"><h1>Website demo</h1></li>
 				</ol>
 			</div>
 
@@ -128,33 +128,41 @@ export class Pay extends React.Component {
 			<form>
 				<div id="body">
 					<dl class="content">
-						<dt> trans_amount: </dt>
-						<dd>
-							<span class="null-star">*</span> <input size="30" name="trans_amount" value={this.state.amount} onChange={evt => this.updateAmount(evt)}/>
-							<span> </span>
-						</dd>
-						<dt>out_order_no: </dt>
+						<div id = 'block'>
+							<dt id='tag'><b> trans_amount: </b></dt>
+							<dd>
+								<span class="null-star">*</span> <input size="30" name="trans_amount" value={this.state.amount} onChange={evt => this.updateAmount(evt)}/>
+								<span> </span>
+							</dd>
+						</div>
+						<div id = 'block'>
+						<dt id='tag'><b>out_order_no: </b></dt>
 						<dd>
 							<span class="null-star">*</span> <input size="30" name="out_order_no"
-																	value={this.state.order} onChange={evt => this.updateOrder(evt)}/> <span> out_order_no</span>
+																	value={this.state.order} onChange={evt => this.updateOrder(evt)}/> <span><b> out_order_no</b></span>
 						</dd>
-						<dt>description: </dt>
+						</div>
+						<div id = 'block'>
+						<dt id='tag'><b>description: </b></dt>
 						<dd>
 							<span class="null-star">*</span> <input size="30"
-																	name="description" value={this.state.description} onChange={evt => this.updateDescription(evt)}/> <span> description</span>
+																	name="description" value={this.state.description} onChange={evt => this.updateDescription(evt)}/> <span><b> description</b></span>
 						</dd>
-						<dt>merchant_no: </dt>
+						</div>
+						<div id = 'block'>
+						<dt id='tag'><b>merchant_no: </b></dt>
 						<dd>
-							<span class="null-star">*</span> <input size="30" name="merchant_no" value={this.state.merchant_no} onChange={evt => this.updateMerchant(evt)}/> <span> merchant_no </span>
+							<span class="null-star">*</span> <input size="30" name="merchant_no" value={this.state.merchant_no} onChange={evt => this.updateMerchant(evt)}/> <span><b> merchant_no </b></span>
 						</dd>
+						</div>
 						<br/>
 					</dl>
 				</div>
 			</form>
-			<button id='B1' onClick={this.send.bind(this)}>Create</button>
+			<Button variant="contained" color="secondary"  htmlType="Create" id='B1' onClick={this.send.bind(this)}>Create</Button>
 			<br></br>
-			<button id='B1' onClick={this.jump.bind(this)}>back</button>
-		</div>
+			<Button variant="contained" color="secondary"  htmlType="back" id='B1' onClick={this.jump.bind(this)}>back</Button>
+			</div>
 		</body>
 		)
 	}

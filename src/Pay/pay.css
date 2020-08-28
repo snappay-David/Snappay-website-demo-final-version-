@@ -8,9 +8,26 @@ ul, ol {
 }
 
 #B1 {
+    justify-content: center;
     width: 100px;
     margin-left: 35%;
     margin-top: 50px
+}
+
+#body {
+    margin-top: 10%;
+}
+
+#title1 {
+    justify-content: center;
+}
+
+#block {
+    margin-bottom: 20px;
+}
+
+#tag {
+    font: 30px;
 }
 
 .title {
@@ -73,6 +90,15 @@ ul, ol {
     width:187px;
 }
 
+#backgroud {
+    background-image:url("./../Pic/bbk1.jpg");
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
 .red-star {
     color: #f00;
     width: 10px;
@@ -118,12 +144,12 @@ ul, ol {
     font-size: 14px;
     margin: 15px 0 10px;
     text-align: left;
-    height: 30px;
+    height: 50px;
     border-bottom: solid 2px #CFD2D7;
 }
 
 .cashier-nav ol li {
-    float: left;
+    justify-content: center;
 }
 
 .cashier-nav li.current {
